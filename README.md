@@ -17,7 +17,7 @@ Tenho interesse em:
 - Programação
 - Tecnologia
 - Sistemas
-- Front-end e Back-end
+- Front-end 
 
 Estou em constante aprendizado, criando projetos práticos e evoluindo minhas habilidades todos os dias.
 
