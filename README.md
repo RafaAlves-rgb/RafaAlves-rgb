@@ -1,16 +1,21 @@
-## Hi there 👋
+# Rafael Alves
 
-<!--
-**RafaAlves-rgb/RafaAlves-rgb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Desenvolvedor em formação | Análise e Desenvolvimento de Sistemas
 
-Here are some ideas to get you started:
+Me chamo Rafael Alves, sou estudante da área de Tecnologia da Informação, atualmente cursando Análise e Desenvolvimento de Sistemas (Amo o mundo da Tecnologia).
+Tenho grande interesse em programação, desenvolvimento web e tecnologia, e estou em constante evolução, buscando aprimorar meus conhecimentos através de cursos, projetos práticos e estudos diários.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Atualmente estudo e pratico:
+
+🚀 HTML  
+🚀 CSS  
+🚀 JavaScript  
+🚀 Lógica de Programação  
+🚀 Git e GitHub  
+🚀 Desenvolvimento Web  
+
+Meu objetivo é me tornar um desenvolvedor profissional, adquirindo experiência na criação de sistemas, sites e aplicações, sempre buscando evolução pessoal e profissional na área de TI.
+
+📚 Em constante aprendizado  
+💡 Focado em evolução diária  
+🎯 Futuro Desenvolvedor Full Stack
