@@ -1,21 +1,39 @@
-# Rafael Alves
+<h1 align="center">Rafael Alves</h1>
 
+<p align="center">
 💻 Desenvolvedor em formação | Análise e Desenvolvimento de Sistemas
+</p>
 
-Me chamo Rafael Alves, sou estudante da área de Tecnologia da Informação, atualmente cursando Análise e Desenvolvimento de Sistemas (Amo o mundo da Tecnologia).
-Tenho grande interesse em programação, desenvolvimento web e tecnologia, e estou em constante evolução, buscando aprimorar meus conhecimentos através de cursos, projetos práticos e estudos diários.
+---
 
-Atualmente estudo e pratico:
+### 👨‍💻 Sobre mim
 
-🚀 HTML  
-🚀 CSS  
-🚀 JavaScript  
-🚀 Lógica de Programação  
-🚀 Git e GitHub  
-🚀 Desenvolvimento Web  
+Me chamo Rafael Alves e sou estudante da área de Tecnologia da Informação.  
+Atualmente estou cursando **Análise e Desenvolvimento de Sistemas** e me desenvolvendo na área de programação e desenvolvimento web.
 
-Meu objetivo é me tornar um desenvolvedor profissional, adquirindo experiência na criação de sistemas, sites e aplicações, sempre buscando evolução pessoal e profissional na área de TI.
+Tenho interesse em:
 
-📚 Em constante aprendizado  
-💡 Focado em evolução diária  
-🎯 Futuro Desenvolvedor Full Stack
+- Desenvolvimento Web
+- Programação
+- Tecnologia
+- Sistemas
+- Front-end e Back-end
+
+Estou em constante aprendizado, criando projetos práticos e evoluindo minhas habilidades todos os dias.
+
+---
+
+### 🚀 Tecnologias em aprendizado
+
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
+- Lógica de Programação
+
+---
+
+### 🎯 Objetivo
+
+Me tornar um desenvolvedor profissional na área de TI, trabalhando com desenvolvimento de sistemas, aplicações web e tecnologia.
