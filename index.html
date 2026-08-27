@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprenda HTML e CSS do Zero</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- 
+      TAG <main> (Conteúdo Principal):
+      Diz ao navegador e ao Google qual é o bloco de conteúdo mais importante do site.
+      Ajuda na acessibilidade e na organização do motor de busca. Só deve existir um por página.
+    -->
+    <main class="container">
+        <!-- Lado Esquerdo: Texto e Informações -->
+        <section class="conteudo">
+
+            <h1>Descubra o Segredo pare Criar Sites Incríveis</h1>
+            <p class="subtitulo">Baixe nosso guia prático gratuito e comece a programar suas próprias páginas ainda
+                hoje.</p>
+
+            <!-- 
+              TAG <ul> (Lista Não Ordenada - Unordered List):
+              Cria uma lista de tópicos onde a ordem não importa. 
+              Por padrão, o navegador coloca aquelas bolinhas pretas antes de cada item.
+            -->    
+            <ul class="beneficios">
+                <li>✅ Passo a passo prático para iniciantes</li>
+                <li>✅ Principais tags HTML explicadas</li>
+                <li>✅ Como estilizar layouts com CSS profissional</li>
+            </ul>
+
+             <!-- 
+          TAG <section> (Seção/Bloco):
+          Funciona como uma gaveta organizadora. Serve para agrupar conteúdos que têm o mesmo assunto.
+          Aqui ela está separando todos os elementos de texto do lado esquerdo.
+        -->
+        </section>
+
+        <!-- Lado Direito: Formulário de Captura -->
+        <section class="formulario-box">
+
+            <h2>Garantir meu E-book Grátis</h2>
+            <form>
+
+                <!-- 
+                  TAG <div> (Divisão/Caixa Genérica):
+                  Ela não tem nenhum significado especial para o Google. Funciona como uma "caixa plástica vazia"
+                  usada apenas para agrupar outros elementos e nos ajudar a organizar o visual no CSS.
+                -->
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Seu melhor e-mail" required>
+                </div>
+
+                 <!-- 
+                  TAG <button> (Botão):
+                  Cria um botão clicável na página. 
+                  Como ele tem o type="submit" e está dentro de um <form>, ao ser clicado, ele dispara os dados.
+                -->
+                <button type="submit" class="btn-enviar">Quero Receber Agora</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+/* O asterisco (*) seleciona absolutamente TODOS os elementos da página (Reset Global) */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;                       /* Remove as margens padrão que o navegador vem de fábrica */
+    padding: 0;                      /* Remove os espaçamentos internos padrão */
+    box-sizing: border-box;          /* Garante que bordas e espaçamentos não façam o elemento "brotar" para fora do tamanho definido */
+}
+
+/* BODY: Aplica estilos ao fundo e estrutura geral da tela */
+body {
+     /* 
+       A mágica do efeito DevClub/Rocketseat:
+       1. Usamos um fundo escuro quase preto (#0b0c10) como base.
+       2. O linear-gradient mistura o roxo, azul e violeta com 35% de opacidade (0.35).
+       3. Isso cria o efeito de "luzes neon estourando" por cima da foto de código.
+    */
+    background-image: linear-gradient(
+                        135deg, 
+                        rgba(158, 231, 152, 0.35),  /* Roxo icônico da Rocketseat */
+                        rgba(70, 221, 232, 0.25),   /* Azul/Ciano Neon brilhante */
+                        rgba(137, 10, 137, 0.912)   /* Violeta/Rosa Deep */
+                      ), 
+                      url();
+    
+    background-color: #0b0c10;    /* O fundo escuro de verdade que dá o contraste estilo Dev */
+    background-size: cover;       /* Cobertura total sem distorcer */
+    background-position: center;   /* Centraliza a imagem */
+    background-repeat: no-repeat;  /* Não repete o fundo */
+    background-attachment: fixed;  /* Efeito de fundo travado ao rolar a página */
+    color: #ffffff;                /* Texto todo branco para brilhar no tema dark */
+    min-height: 100vh;             
+    display: flex;                 
+    align-items: center;           
+    justify-content: center;       
+    padding: 20px;            
+}
+
+/* Estilo da caixa que envelopa o conteúdo e o formulário */
+.container {
+    max-width: 1000px;   /* Define que a largura máxima da página será de 1000 pixels */
+    width: 100%;         /* Ocupa 100% da tela se ela for menor que 1000px (como celulares) */
+    display: flex;       /* Liga o Flexbox para colocar o texto e o formulário lado a lado */
+    flex-wrap: wrap;     /* Se a tela for pequena e não couber os dois lado a lado, o formulário pula para baixo */
+    gap: 40px;           /* Cria um espaço de 40 pixels de distância entre o texto e o formulário */
+    align-items: center; /* Alinha o texto e o formulário no mesmo eixo centralizado */
+}
+
+/* Configurações do bloco de texto (lado esquerdo) */
+.conteudo {
+    flex: 1;           /* Diz que essa parte pode esticar e ocupar espaço igualmente */
+    min-width: 300px;  /* Diz que ela não pode esmagar menos do que 300 pixels de largura */
+}
+
+/* Título Principal */
+.conteudo h1 {
+   font-size: 2.5rem;    /* Define o tamanho da fonte (rem é proporcional ao padrão) */
+   color: #fdfcfc;        /* Cor preta forte */
+   line-height: 1.2;     /* Controla o espaçamento vertical entre as linhas de texto */
+   margin-bottom: 20px;  /* Joga um espaço de 20px abaixo do título */
+}
+
+/* Subtítulo */
+.conteudo .subtitulo {
+    font-size: 1.2rem;     /* Tamanho do texto um pouco menor que o título */
+    color: #727272;         /* Cor cinza média */
+    margin-bottom: 30px;   /* Espaço de 30px abaixo do parágrafo */
+}
+
+/* Cada item da lista */
+.beneficios li{
+    font-size: 1.1rem;     /* Tamanho confortável para leitura */
+    margin-bottom: 12px;   /* Afasta um item do outro verticalmente */
+}
+ 
+/* Lista de benefícios */
+.beneficios {
+    list-style: none;   /* Remove aquelas bolinhas pretas padrão da lista (já que usamos emojis) */
+}
+
+/* Configurações da caixinha branca do formulário (lado direito) */
+.formulario-box {
+    flex: 1;
+    min-width: 300px;
+    background-color: rgba(20, 20, 25, 0.85); /* Fundo quase preto com transparência (Efeito Glassmorphism) */
+    padding: 30px;
+    border-radius: 12px; /* Cantos um pouco mais arredondados */
+    border: 1px solid rgba(130, 87, 229, 0.3); /* Uma borda roxa bem fininha e discreta */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5); /* Sombra pesada de ambiente dark */
+}
+
+/* Título dentro do formulário */
+.formulario-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #00f2fe; /* Título no azul ciano neon */
+    text-align: center;
+}
+
+/* Divs que envelopam cada etiqueta e cada campo */
+.campo {
+    margin-bottom: 20px;  /* Cria um espaço de 20px entre o campo Nome e o campo E-mail */
+}
+
+/* Texto das etiquetas (Nome / E-mail) */
+.campo label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Caixas de entrada de texto (Inputs) */
+.campo input {
+    width: 100%;
+    padding: 12px;
+    background-color: #121214; /* Fundo do input escuro */
+    border: 1px solid #29292e; /* Borda cinza escura */
+    color: white; /* Letra branca ao digitar */
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Efeito visual quando o usuário clica para digitar no campo (Focus) */
+.campo input:focus {
+     border-color: #8257e5; /* Quando clica para digitar, a borda acende em Roxo Rocketseat! */
+}
+
+/* Botão de Enviar azul */
+.btn-enviar {
+    width: 100%;   /* Botão ocupa toda a largura do formulário */
+    padding: 14px;  /* Altura confortável para o clique */
+    background-color: #0070f3;  /* Cor de fundo azul */
+    color: white;  /* Cor do texto em branco */
+    border: none;  /* Remove qualquer borda padrão de botão */
+    border-radius: 4px;  /* Cantos levemente arredondados */
+    font-size: 1.1rem;   /* Texto grande e visível */
+    font-weight: bold;  /* Letras em negrito */
+    cursor: pointer;  /* Transforma a seta do mouse naquela "mãozinha" de clique */
+    transition: background-color 0.2s;  /* Faz a mudança de cor do botão ser suave e não brusca */
+}
+
+/* Efeito visual quando o mouse passa por cima do botão (Hover) */
+.btn-enviar:hover {
+    background-color: #0051bb;  /* O azul fica um pouco mais escuro, mostrando interação */
+}
